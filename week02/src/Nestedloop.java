@@ -1,0 +1,11 @@
+public class Nestedloop {
+    public static void main(String1[] args) {
+        int i,j;
+        for( i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+    }
+}
